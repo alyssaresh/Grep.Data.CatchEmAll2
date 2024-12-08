@@ -1,11 +1,44 @@
 # Part 1
+
+from Grep.Data.CatchEmAll2 folder
 ### a)
+ggrep "beed" filescan_00.1 
+ggrep "beed" forest/filescan_00.1  > captured/beedrill.txt
 
+ggrep "butt" forest/filescan_00.1
+ggrep "butt" forest/filescan_00.1  > captured/butterfree.txt
 
+ggrep "bul" forest/filescan_00.1
+ggrep "bul" forest/filescan_00.1  > captured/bulbasaur.txt
+
+ggrep "bla" forest/filescan_00.1
+ggrep "bla" forest/filescan_00.1 > captured/blastoise.txt
+
+ggrep "d$" forest/filescan_00.2 
+ggrep "d$" forest/filescan_00.2 > captured/charizard.txt
+
+ggrep "r$" forest/filescan_00.2  
+ggrep "r$" forest/filescan_00.2 > captured/charmander.txt
+
+ggrep "n$" forest/filescan_00.2  
+ggrep "n$" forest/filescan_00.2 > captured/charmeleon.txt
+
+ggrep "^p" forest/filescan_00.3 
+ggrep "^p" forest/filescan_00.3 > captured.pikachu.txt
+
+ggrep "^j" forest/filescan_00.3
+ggrep "^j" forest/filescan_00.3 > captured/jigglypuff.txt
+
+ggrep "^i" forest/filescan_00.3
+ggrep "^i" forest/filescan_00.3 > captured/ivysaur.txt
+
+ggrep "^m" forest/filescan_00.3 
+ggrep "^m" forest/filescan_00.3 > captured/meowth.txt
 
 
 ### b)
-
+11
+ggrep "zcw" forest/filescan_00.1 forest/filescan_00.2 forest/filescan_00.3 (& added pikachu)
 
 
 ### c)
